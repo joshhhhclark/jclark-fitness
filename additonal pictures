@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JClark Fitness</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #1c1c1c;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+      background-color: white;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #2c5364;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact-info a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .social-links a {
+      margin-right: 15px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .social-links a:hover {
+      color: #007BFF;
+    }
+
+    footer {
+      background-color: #1c1c1c;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>JClark Fitness</h1>
+  <p>Helping you unlock strength, discipline, and results.</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#schedules">Training</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm Josh Clark, a certified personal trainer and fitness enthusiast dedicated to transforming lives through movement. My mission is to help you build real strength, boost energy, and reach your goals with structured, personalized training programs. Whether you're working out at home, the gym, or outdoors — I’ll keep you challenged and inspired.
+    </p>
+  </section>
+
+  <section id="schedules" class="section">
+    <h2>Training Options</h2>
+    <p>I offer customized sessions designed for all levels:</p>
+    <ul>
+      <li>1-on-1 Personal Training</li>
+      <li>Group Bootcamps</li>
+      <li>Virtual Coaching</li>
+      <li>Strength, HIIT, & Conditioning Programs</li>
+    </ul>
+    <p>Sessions are available in person or online. Message me to get started.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact & Socials</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:jclark6897@gmail.com">jclark6897@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/joshhhhclark" target="_blank">@joshhhhclark</a></p>
+    </div>
+    <div class="social-links">
+      <h3>Follow Me</h3>
+      <a href="https://instagram.com/joshhhhclark" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">TikTok</a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 JClark Fitness • Built with hustle and HTML 💪
+</footer>
+
+</body>
+</html>
